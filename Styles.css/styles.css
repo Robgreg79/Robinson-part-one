@@ -1,0 +1,166 @@
+header{
+    background-color: #f2F2F2 ;
+    padding: 0px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+body {
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family:'Roboto', serif;
+}
+.learn{
+    display: flex;
+    align-self: left;
+    height: 25px;
+}
+
+a {
+    text-decoration : none;
+    line-height: 30px;
+}
+.nav-list {
+    font-size: 15px;
+    list-style: none;
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-right: 10px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+
+}
+button {
+    background-color: #20a8b4;
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+    border: #20a8b4;
+    flex-direction: column;
+    
+    }
+        
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+.question{
+    margin-top: 100px;
+    white-space: nowrap;
+    width: 250px;
+    margin-left: 15px;
+}
+.exclaim{
+    white-space: nowrap;
+    margin-left: 15px;
+    font-size: 16px;
+
+}
+button:hover{
+    background-color: #ff5c0f;
+}
+
+.blue-text{
+    color: #20a8b4;
+}
+.org-text {
+    color: #ff5c0f;
+}
+.menu:hover {
+    color: #ff5c0f ;
+}
+
+.link{
+    color: white;
+}
+.bigcontainer{
+    display:none;
+}
+img{
+    display: none;
+   
+}
+
+@media screen and (min-width: 768px){
+    header{
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 5px;
+        height: 75px;
+        
+        
+    }
+    .menu{
+        
+        padding: 10px;
+        white-space: nowrap;
+    }
+    li {
+        align-self: center;
+    }
+   .question{
+     float: left;
+     margin-top: 190px;
+     margin-left: 10px;
+     margin-bottom: 5px;
+     width: 50%;
+   }
+   .bigcontainer{
+    display: block;
+    width: 100%;
+   }
+    .nav-list{
+      display: flex;
+      flex-direction: row;
+      white-space: nowrap;
+      height: 100%;
+      margin:0px;
+      padding: 0px;
+      padding-right: 10px;
+    }
+    .button{
+        padding: 10px;
+      align-self:center;
+      width: auto;
+      white-space: nowrap;
+    } #button {
+        float: left;
+        width: auto;
+    }
+    .exclaim{
+        float: left;
+        padding: 0px;
+        margin-top: 10px;
+        margin-left: 12px;
+        width: 50%;
+    }
+    .container {
+        width: 50%;
+        height: auto;
+        float:left;
+    }
+        img{
+        max-width: 25%;
+        padding-right: 20%;
+        height: auto;
+        visibility: visible;
+        display: block;
+        margin-top: 100px;
+        float: right;
+    } 
+    .learn {
+        display: flex;
+        align-self: center;
+        white-space: nowrap;
+        padding: 0px;
+        margin:0;
+        margin-left: 10px;
+    }
+    body {
+        font-size: 180%;
+    }
+   
+}
